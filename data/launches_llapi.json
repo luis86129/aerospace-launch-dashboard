@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "source": "Launch Library 2 (LLAPI) - The Space Devs",
+    "total_records": 30,
+    "generated_at": "2026-11-19T03:02:44Z"
+  },
+  "launches": [
+    {
+      "id": "SL-10.2",
+      "mission_name": "Starlink Group 10-2",
+      "net": "2026-10-28T14:00:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "CCSFS, USA",
+      "payload_capacity_kg": 22800.0,
+      "total_launch_count": 312
+    },
+    {
+      "id": "ART-03",
+      "mission_name": "Artemis III",
+      "net": "2026-11-15T09:30:00Z",
+      "provider_name": "NASA",
+      "status_name": "Go for Launch",
+      "country_code": "USA",
+      "location_name": "KSC, USA",
+      "payload_capacity_kg": 95000.0,
+      "total_launch_count": 145
+    },
+    {
+      "id": "CZ-2F-Y21",
+      "mission_name": "Long March 2F/P",
+      "net": "2026-10-12T04:15:00Z",
+      "provider_name": "CASC",
+      "status_name": "Success",
+      "country_code": "CHN",
+      "location_name": "JSLC, China",
+      "payload_capacity_kg": 8600.0,
+      "total_launch_count": 210
+    },
+    {
+      "id": "VA265",
+      "mission_name": "Ariane 6 VA265",
+      "net": "2026-09-30T18:42:00Z",
+      "provider_name": "ESA",
+      "status_name": "Success",
+      "country_code": "FRA",
+      "location_name": "CSG, Kourou",
+      "payload_capacity_kg": 21650.0,
+      "total_launch_count": 320
+    },
+    {
+      "id": "HLVM3-G1",
+      "mission_name": "Gaganyaan G1",
+      "net": "2026-12-04T06:20:00Z",
+      "provider_name": "ISRO",
+      "status_name": "Go for Launch",
+      "country_code": "IND",
+      "location_name": "SDSC, India",
+      "payload_capacity_kg": 10000.0,
+      "total_launch_count": 98
+    },
+    {
+      "id": "TR-18",
+      "mission_name": "Transporter-18",
+      "net": "2026-08-18T21:16:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Failure",
+      "country_code": "USA",
+      "location_name": "VSFB, USA",
+      "payload_capacity_kg": 22800.0,
+      "total_launch_count": 185
+    },
+    {
+      "id": "SL-8.9",
+      "mission_name": "Starlink Group 8-9",
+      "net": "2025-11-04T12:10:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "CCSFS, USA",
+      "payload_capacity_kg": 22800.0,
+      "total_launch_count": 305
+    },
+    {
+      "id": "CRS-31",
+      "mission_name": "SpaceX CRS-31",
+      "net": "2025-10-19T02:29:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "KSC, USA",
+      "payload_capacity_kg": 22800.0,
+      "total_launch_count": 142
+    },
+    {
+      "id": "CZ-5B-Y6",
+      "mission_name": "Long March 5B Y6",
+      "net": "2025-09-14T06:00:00Z",
+      "provider_name": "CASC",
+      "status_name": "Success",
+      "country_code": "CHN",
+      "location_name": "WSLS, China",
+      "payload_capacity_kg": 25000.0,
+      "total_launch_count": 34
+    },
+    {
+      "id": "SOY-MS27",
+      "mission_name": "Soyuz MS-27",
+      "net": "2025-08-22T15:40:00Z",
+      "provider_name": "Roscosmos",
+      "status_name": "Success",
+      "country_code": "KAZ",
+      "location_name": "Baikonur, Kazakhstan",
+      "payload_capacity_kg": 7020.0,
+      "total_launch_count": 1540
+    },
+    {
+      "id": "EUC-02",
+      "mission_name": "Galileo L13",
+      "net": "2025-07-11T05:30:00Z",
+      "provider_name": "ESA",
+      "status_name": "Success",
+      "country_code": "FRA",
+      "location_name": "CSG, Kourou",
+      "payload_capacity_kg": 21650.0,
+      "total_launch_count": 318
+    },
+    {
+      "id": "NROL-146",
+      "mission_name": "NROL-146",
+      "net": "2025-06-29T03:14:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "VSFB, USA",
+      "payload_capacity_kg": 22800.0,
+      "total_launch_count": 180
+    },
+    {
+      "id": "CH-4",
+      "mission_name": "Chandrayaan-4 Tech Demo",
+      "net": "2025-05-18T09:05:00Z",
+      "provider_name": "ISRO",
+      "status_name": "Success",
+      "country_code": "IND",
+      "location_name": "SDSC, India",
+      "payload_capacity_kg": 10000.0,
+      "total_launch_count": 95
+    },
+    {
+      "id": "CZ-7-Y9",
+      "mission_name": "Tianzhou-9",
+      "net": "2025-04-10T14:22:00Z",
+      "provider_name": "CASC",
+      "status_name": "Success",
+      "country_code": "CHN",
+      "location_name": "WSLS, China",
+      "payload_capacity_kg": 14000.0,
+      "total_launch_count": 32
+    },
+    {
+      "id": "EUR-CLIP",
+      "mission_name": "Europa Clipper",
+      "net": "2024-10-14T16:06:00Z",
+      "provider_name": "NASA",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "KSC, USA",
+      "payload_capacity_kg": 63800.0,
+      "total_launch_count": 138
+    },
+    {
+      "id": "SL-6.44",
+      "mission_name": "Starlink Group 6-44",
+      "net": "2024-09-05T15:33:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "CCSFS, USA",
+      "payload_capacity_kg": 22800.0,
+      "total_launch_count": 290
+    },
+    {
+      "id": "VA262",
+      "mission_name": "Ariane 6 Maiden Flight",
+      "net": "2024-07-09T19:00:00Z",
+      "provider_name": "ESA",
+      "status_name": "Failure",
+      "country_code": "FRA",
+      "location_name": "CSG, Kourou",
+      "payload_capacity_kg": 21650.0,
+      "total_launch_count": 315
+    },
+    {
+      "id": "CZ-6A-Y7",
+      "mission_name": "Long March 6A Y7",
+      "net": "2024-08-06T06:42:00Z",
+      "provider_name": "CASC",
+      "status_name": "Success",
+      "country_code": "CHN",
+      "location_name": "TSLC, China",
+      "payload_capacity_kg": 4500.0,
+      "total_launch_count": 128
+    },
+    {
+      "id": "ANG-A5",
+      "mission_name": "Angara A5 Test 4",
+      "net": "2024-04-11T09:00:00Z",
+      "provider_name": "Roscosmos",
+      "status_name": "Success",
+      "country_code": "RUS",
+      "location_name": "Vostochny, Russia",
+      "payload_capacity_kg": 24500.0,
+      "total_launch_count": 18
+    },
+    {
+      "id": "PSLV-C58",
+      "mission_name": "XPoSat",
+      "net": "2024-01-01T03:40:00Z",
+      "provider_name": "ISRO",
+      "status_name": "Success",
+      "country_code": "IND",
+      "location_name": "SDSC, India",
+      "payload_capacity_kg": 1750.0,
+      "total_launch_count": 91
+    },
+    {
+      "id": "FH-09",
+      "mission_name": "USSF-52",
+      "net": "2023-12-29T01:07:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "KSC, USA",
+      "payload_capacity_kg": 63800.0,
+      "total_launch_count": 132
+    },
+    {
+      "id": "PSY-23",
+      "mission_name": "Psyche Mission",
+      "net": "2023-10-13T14:19:00Z",
+      "provider_name": "NASA",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "KSC, USA",
+      "payload_capacity_kg": 63800.0,
+      "total_launch_count": 130
+    },
+    {
+      "id": "CH-3",
+      "mission_name": "Chandrayaan-3",
+      "net": "2023-07-14T09:05:00Z",
+      "provider_name": "ISRO",
+      "status_name": "Success",
+      "country_code": "IND",
+      "location_name": "SDSC, India",
+      "payload_capacity_kg": 10000.0,
+      "total_launch_count": 89
+    },
+    {
+      "id": "CZ-2F-Y16",
+      "mission_name": "Shenzhou 16",
+      "net": "2023-05-30T01:31:00Z",
+      "provider_name": "CASC",
+      "status_name": "Success",
+      "country_code": "CHN",
+      "location_name": "JSLC, China",
+      "payload_capacity_kg": 8600.0,
+      "total_launch_count": 201
+    },
+    {
+      "id": "JUICE-23",
+      "mission_name": "JUICE Explorer",
+      "net": "2023-04-14T12:14:00Z",
+      "provider_name": "ESA",
+      "status_name": "Success",
+      "country_code": "FRA",
+      "location_name": "CSG, Kourou",
+      "payload_capacity_kg": 10500.0,
+      "total_launch_count": 312
+    },
+    {
+      "id": "LUNA-25",
+      "mission_name": "Luna 25",
+      "net": "2023-08-10T23:10:00Z",
+      "provider_name": "Roscosmos",
+      "status_name": "Failure",
+      "country_code": "RUS",
+      "location_name": "Vostochny, Russia",
+      "payload_capacity_kg": 7020.0,
+      "total_launch_count": 16
+    },
+    {
+      "id": "ART-01",
+      "mission_name": "Artemis I",
+      "net": "2022-11-16T06:47:00Z",
+      "provider_name": "NASA",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "KSC, USA",
+      "payload_capacity_kg": 95000.0,
+      "total_launch_count": 124
+    },
+    {
+      "id": "DART-22",
+      "mission_name": "DART Asteroid Test",
+      "net": "2022-09-26T23:14:00Z",
+      "provider_name": "NASA",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "VSFB, USA",
+      "payload_capacity_kg": 0.0,
+      "total_launch_count": 170
+    },
+    {
+      "id": "CZ-5B-Y4",
+      "mission_name": "Mengtian Lab Module",
+      "net": "2022-10-31T07:37:00Z",
+      "provider_name": "CASC",
+      "status_name": "Success",
+      "country_code": "CHN",
+      "location_name": "WSLS, China",
+      "payload_capacity_kg": 25000.0,
+      "total_launch_count": 26
+    },
+    {
+      "id": "SL-4.36",
+      "mission_name": "Starlink Group 4-36",
+      "net": "2022-10-20T14:50:00Z",
+      "provider_name": "SpaceX",
+      "status_name": "Success",
+      "country_code": "USA",
+      "location_name": "CCSFS, USA",
+      "payload_capacity_kg": 22800.0,
+      "total_launch_count": 255
+    }
+  ]
+}
