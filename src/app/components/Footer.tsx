@@ -1,7 +1,11 @@
 import { Box, Typography } from "@mui/material";
 import { Clock3, Sparkles } from "lucide-react";
 
-export function Footer() {
+export interface FooterProps {
+  lastUpdated?: string;
+}
+
+export function Footer({ lastUpdated }: FooterProps) {
   return (
     <Box
       component="footer"
@@ -29,7 +33,7 @@ export function Footer() {
         }}
       >
         <Sparkles size={12} />
-        Datos sincronizados con LLAPI
+        Datos sincronizados con Firebase Realtime Database (LLAPI)
       </Typography>
       <Typography
         sx={{
@@ -41,7 +45,7 @@ export function Footer() {
         }}
       >
         <Clock3 size={12} />
-        Última actualización: 28 oct 2026, 14:32 UTC
+        Última actualización: {lastUpdated ?? "Cargando..."}
       </Typography>
     </Box>
   );

@@ -11,11 +11,11 @@ import {
   Typography,
 } from "@mui/material";
 import { Activity, Box as BoxIcon, CalendarDays, CircleDot, MapPin, Rocket } from "lucide-react";
-import { Launch } from "../data/launchData";
+import type { LaunchRecord } from "../../types/Launch";
 import { StatusBadge } from "./StatusBadge";
 
 export interface LaunchesTableProps {
-  launches: Launch[];
+  launches: LaunchRecord[];
   hasActiveFilters: boolean;
   onResetFilters: () => void;
 }
@@ -64,7 +64,7 @@ export function LaunchesTable({
               color: "#64748b",
             }}
           >
-            Registro de misiones / NET
+            Registro de misiones / NET (Firebase Realtime DB)
           </Typography>
         </Box>
 
@@ -134,7 +134,7 @@ export function LaunchesTable({
           <TableBody>
             {launches.map((launch) => (
               <TableRow
-                key={launch.mission}
+                key={launch.id}
                 sx={{
                   "&:hover": { bgcolor: "rgba(255, 255, 255, 0.025)" },
                   "& td": { borderBottom: "1px solid rgba(255, 255, 255, 0.05)" },
@@ -160,10 +160,10 @@ export function LaunchesTable({
                     </Box>
                     <Box>
                       <Typography sx={{ fontSize: "0.78rem", fontWeight: 500, color: "#e2e8f0" }}>
-                        {launch.mission}
+                        {launch.mission_name}
                       </Typography>
                       <Typography sx={{ fontFamily: "monospace", fontSize: "0.6rem", color: "#475569" }}>
-                        {launch.code}
+                        {launch.id} · {launch.country_code}
                       </Typography>
                     </Box>
                   </Box>
@@ -171,7 +171,7 @@ export function LaunchesTable({
                 <TableCell sx={{ px: 3, py: 2 }}>
                   <Box sx={{ display: "inline-flex", alignItems: "center", gap: 1, fontSize: "0.78rem", color: "#94a3b8" }}>
                     <CircleDot size={12} color="#475569" />
-                    {launch.provider}
+                    {launch.provider_name}
                   </Box>
                 </TableCell>
                 <TableCell sx={{ px: 3, py: 2 }}>
@@ -186,17 +186,17 @@ export function LaunchesTable({
                     }}
                   >
                     <CalendarDays size={12} color="#475569" />
-                    {launch.date}
+                    {launch.net.replace("T", " ")}
                   </Box>
                 </TableCell>
                 <TableCell sx={{ px: 3, py: 2 }}>
                   <Box sx={{ display: "flex", alignItems: "center", gap: 1, fontSize: "0.78rem", color: "#94a3b8" }}>
                     <MapPin size={12} color="#475569" />
-                    {launch.location}
+                    {launch.location_name}
                   </Box>
                 </TableCell>
                 <TableCell sx={{ px: 3, py: 2 }}>
-                  <StatusBadge status={launch.status} />
+                  <StatusBadge status={launch.status_name} />
                 </TableCell>
               </TableRow>
             ))}
