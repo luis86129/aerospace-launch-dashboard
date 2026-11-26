@@ -1,24 +1,7 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { Orbit } from "lucide-react";
-import { FilterSelect } from "./FilterSelect";
 
-export interface HeroSectionProps {
-  provider: string;
-  status: string;
-  providers: string[];
-  statuses: string[];
-  onProviderChange: (value: string) => void;
-  onStatusChange: (value: string) => void;
-}
-
-export function HeroSection({
-  provider,
-  status,
-  providers,
-  statuses,
-  onProviderChange,
-  onStatusChange,
-}: HeroSectionProps) {
+export function HeroSection() {
   return (
     <Box
       component="section"
@@ -27,10 +10,10 @@ export function HeroSection({
         pb: 3.5,
         borderBottom: "1px solid rgba(255, 255, 255, 0.07)",
         display: "flex",
-        flexDirection: { xs: "column", lg: "row" },
+        flexDirection: { xs: "column", md: "row" },
         justifyContent: "space-between",
-        alignItems: { xs: "stretch", lg: "flex-end" },
-        gap: 3,
+        alignItems: { xs: "flex-start", md: "flex-end" },
+        gap: 2,
       }}
     >
       <Box sx={{ maxWidth: 640 }}>
@@ -67,24 +50,17 @@ export function HeroSection({
         </Typography>
       </Box>
 
-      <Grid container spacing={2} sx={{ width: { xs: "100%", lg: 520 } }}>
-        <Grid size={{ xs: 12, sm: 6 }}>
-          <FilterSelect
-            label="01 — Proveedor"
-            value={provider}
-            options={providers}
-            onChange={onProviderChange}
-          />
-        </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
-          <FilterSelect
-            label="02 — Estado de misión"
-            value={status}
-            options={statuses}
-            onChange={onStatusChange}
-          />
-        </Grid>
-      </Grid>
+      <Typography
+        sx={{
+          fontFamily: "monospace",
+          fontSize: "0.65rem",
+          textTransform: "uppercase",
+          letterSpacing: "0.18em",
+          color: "#64748b",
+        }}
+      >
+        Telemetría histórica · 2022 — 2026
+      </Typography>
     </Box>
   );
 }

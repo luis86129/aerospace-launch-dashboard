@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  Grid,
   Paper,
   Table,
   TableBody,
@@ -12,16 +13,29 @@ import {
 } from "@mui/material";
 import { Activity, Box as BoxIcon, CalendarDays, CircleDot, MapPin, Rocket } from "lucide-react";
 import type { LaunchRecord } from "../../types/Launch";
+import { FilterSelect } from "./FilterSelect";
 import { StatusBadge } from "./StatusBadge";
 
 export interface LaunchesTableProps {
   launches: LaunchRecord[];
+  provider: string;
+  status: string;
+  providers: string[];
+  statuses: string[];
+  onProviderChange: (value: string) => void;
+  onStatusChange: (value: string) => void;
   hasActiveFilters: boolean;
   onResetFilters: () => void;
 }
 
 export function LaunchesTable({
   launches,
+  provider,
+  status,
+  providers,
+  statuses,
+  onProviderChange,
+  onStatusChange,
   hasActiveFilters,
   onResetFilters,
 }: LaunchesTableProps) {
@@ -38,10 +52,10 @@ export function LaunchesTable({
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", sm: "row" },
-          alignItems: { xs: "flex-start", sm: "center" },
+          flexDirection: { xs: "column", lg: "row" },
+          alignItems: { xs: "stretch", lg: "flex-end" },
           justifyContent: "space-between",
-          gap: 1.5,
+          gap: 2.5,
           borderBottom: "1px solid rgba(255, 255, 255, 0.07)",
           px: { xs: 2.5, sm: 3 },
           py: 2.5,
@@ -68,41 +82,76 @@ export function LaunchesTable({
           </Typography>
         </Box>
 
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          {hasActiveFilters && (
-            <Button
-              size="small"
-              variant="outlined"
-              onClick={onResetFilters}
+        {/* Controles de filtrado vinculados directamente a la tabla */}
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", md: "row" },
+            alignItems: { xs: "stretch", md: "flex-end" },
+            gap: 1.5,
+          }}
+        >
+          <Grid container spacing={1.5} sx={{ width: { xs: "100%", md: 460 } }}>
+            <Grid size={{ xs: 12, sm: 6 }}>
+              <FilterSelect
+                label="01 — Proveedor"
+                value={provider}
+                options={providers}
+                onChange={onProviderChange}
+              />
+            </Grid>
+            <Grid size={{ xs: 12, sm: 6 }}>
+              <FilterSelect
+                label="02 — Estado de misión"
+                value={status}
+                options={statuses}
+                onChange={onStatusChange}
+              />
+            </Grid>
+          </Grid>
+
+          <Box sx={{ display: "flex", alignItems: "center", gap: 1, height: 44 }}>
+            {hasActiveFilters && (
+              <Button
+                size="small"
+                variant="outlined"
+                onClick={onResetFilters}
+                sx={{
+                  height: 44,
+                  borderRadius: 3,
+                  borderColor: "rgba(255, 255, 255, 0.14)",
+                  color: "#94a3b8",
+                  textTransform: "none",
+                  fontSize: "0.72rem",
+                  whiteSpace: "nowrap",
+                  "&:hover": {
+                    borderColor: "rgba(255, 255, 255, 0.3)",
+                    bgcolor: "rgba(255, 255, 255, 0.05)",
+                    color: "#ffffff",
+                  },
+                }}
+              >
+                Limpiar
+              </Button>
+            )}
+            <Box
               sx={{
-                borderColor: "rgba(255, 255, 255, 0.14)",
+                display: "flex",
+                alignItems: "center",
+                height: 44,
+                borderRadius: 3,
+                bgcolor: "rgba(255, 255, 255, 0.04)",
+                px: 1.75,
+                fontFamily: "monospace",
+                fontSize: "0.62rem",
+                textTransform: "uppercase",
+                letterSpacing: "0.12em",
                 color: "#94a3b8",
-                textTransform: "none",
-                fontSize: "0.7rem",
-                "&:hover": {
-                  borderColor: "rgba(255, 255, 255, 0.3)",
-                  bgcolor: "rgba(255, 255, 255, 0.05)",
-                  color: "#ffffff",
-                },
+                whiteSpace: "nowrap",
               }}
             >
-              Limpiar filtros
-            </Button>
-          )}
-          <Box
-            sx={{
-              borderRadius: 2,
-              bgcolor: "rgba(255, 255, 255, 0.04)",
-              px: 1.5,
-              py: 1,
-              fontFamily: "monospace",
-              fontSize: "0.6rem",
-              textTransform: "uppercase",
-              letterSpacing: "0.12em",
-              color: "#64748b",
-            }}
-          >
-            {launches.length} resultados
+              {launches.length} resultados
+            </Box>
           </Box>
         </Box>
       </Box>

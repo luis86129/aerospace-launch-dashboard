@@ -148,14 +148,7 @@ export default function App() {
         <Header />
 
         <Container maxWidth="xl" sx={{ pt: 3.5, pb: 6, px: { xs: 2.5, sm: 4, lg: 6 } }}>
-          <HeroSection
-            provider={provider}
-            status={status}
-            providers={providers}
-            statuses={statuses}
-            onProviderChange={setProvider}
-            onStatusChange={setStatus}
-          />
+          <HeroSection />
 
           {loading && (
             <Box
@@ -227,6 +220,12 @@ export default function App() {
 
               <LaunchesTable
                 launches={filteredLaunches}
+                provider={provider}
+                status={status}
+                providers={providers}
+                statuses={statuses}
+                onProviderChange={setProvider}
+                onStatusChange={setStatus}
                 hasActiveFilters={hasActiveFilters}
                 onResetFilters={handleResetFilters}
               />
