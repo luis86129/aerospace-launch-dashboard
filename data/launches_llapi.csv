@@ -1,31 +1,133 @@
 id,mission_name,net,provider_name,status_name,country_code,location_name,payload_capacity_kg,total_launch_count
-SL-10.2,Starlink Group 10-2,2026-10-28T14:00:00Z,SpaceX,Success,USA,"CCSFS, USA",22800,312
-ART-03,Artemis III,2026-11-15T09:30:00Z,NASA,Go for Launch,USA,"KSC, USA",95000,145
-CZ-2F-Y21,Long March 2F/P,2026-10-12T04:15:00Z,CASC,Success,CHN,"JSLC, China",8600,210
-VA265,Ariane 6 VA265,2026-09-30T18:42:00Z,ESA,Success,FRA,"CSG, Kourou",21650,320
-HLVM3-G1,Gaganyaan G1,2026-12-04T06:20:00Z,ISRO,Go for Launch,IND,"SDSC, India",10000,98
-TR-18,Transporter-18,2026-08-18T21:16:00Z,SpaceX,Failure,USA,"VSFB, USA",22800,185
-SL-8.9,  Starlink Group 8-9 ,2025-11-04 12:10Z, SpaceX ,Success,USA,"CCSFS, USA",22800,305
-CRS-31,SpaceX CRS-31,2025-10-19T02:29:00Z,SpaceX,Success,USA,"KSC, USA",22800,142
-CZ-5B-Y6,Long March 5B Y6,2025-09-14T06:00:00Z,CASC,Success,CHN,"WSLS, China",25000,34
-SOY-MS27,Soyuz MS-27,2025-08-22T15:40:00Z,Roscosmos,Success,KAZ,"Baikonur, Kazakhstan",7020,1540
-EUC-02,Galileo L13,2025-07-11T05:30:00Z,ESA,Success,FRA,"CSG, Kourou",21650,318
-NROL-146,NROL-146,2025-06-29T03:14:00Z,SpaceX,Success,USA,"VSFB, USA",22800,180
-CH-4,Chandrayaan-4 Tech Demo,2025-05-18T09:05:00Z,ISRO,Success,IND,"SDSC, India",10000,95
-CZ-7-Y9,Tianzhou-9,2025-04-10T14:22:00Z,CASC,Success,CHN,"WSLS, China",14000,32
-EUR-CLIP,Europa Clipper,2024-10-14T16:06:00Z,NASA,Success,USA,"KSC, USA",63800,138
-SL-6.44,Starlink Group 6-44,2024-09-05T15:33:00Z,SpaceX,Success,USA,"CCSFS, USA",22800,290
-VA262,Ariane 6 Maiden Flight,2024-07-09T19:00:00Z,ESA,Failure,FRA,"CSG, Kourou",21650,315
-CZ-6A-Y7,Long March 6A Y7,2024-08-06T06:42:00Z,CASC,Success,CHN,"TSLC, China",4500,128
-ANG-A5,Angara A5 Test 4,2024-04-11T09:00:00Z,Roscosmos,Success,RUS,"Vostochny, Russia",24500,18
-PSLV-C58,XPoSat,2024-01-01T03:40:00Z,ISRO,Success,IND,"SDSC, India",1750,91
-FH-09,USSF-52,2023-12-29T01:07:00Z,SpaceX,Success,USA,"KSC, USA",63800,132
-PSY-23,Psyche Mission,2023-10-13T14:19:00Z,NASA,Success,USA,"KSC, USA",63800,130
-CH-3,Chandrayaan-3,2023-07-14T09:05:00Z,ISRO,Success,IND,"SDSC, India",10000,89
-CZ-2F-Y16,Shenzhou 16,2023-05-30T01:31:00Z,CASC,Success,CHN,"JSLC, China",8600,201
-JUICE-23,JUICE Explorer,2023-04-14T12:14:00Z,ESA,Success,FRA,"CSG, Kourou",10500,312
-LUNA-25,Luna 25,2023-08-10T23:10:00Z,Roscosmos,Failure,RUS,"Vostochny, Russia",7020,16
-ART-01,Artemis I,2022-11-16T06:47:00Z,NASA,Success,USA,"KSC, USA",95000,124
-DART-22,DART Asteroid Test,2022-09-26T23:14:00Z,NASA,Success,USA,"VSFB, USA",,170
-CZ-5B-Y4,Mengtian Lab Module,2022-10-31T07:37:00Z,CASC,Success,CHN,"WSLS, China",25000,26
-SL-4.36,Starlink Group 4-36,2022-10-20T14:50:00Z,SpaceX,Success,USA,"CCSFS, USA",22800,255
+B00F0E9A,Long March 2D | Yaogan 49 Group 01,2026-11-26T09:38:00Z,CASC,Launch Successful,CHN,"Xichang Satellite Launch Center, People's Republic of China",3500,244
+C9605B67,Long March 2F/G | Shenzhou 24,2026-11-25T00:18:52Z,CASC,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",8399,304
+460D9DB7,Falcon 9 Block 5 | USSF-266,2026-11-24T16:08:59Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+7BDC412B,Ariane 64 Block 2 | Amazon Leo (LE-04),2026-11-24T11:14:52Z,ASA,Launch Successful,GUF,"Guiana Space Centre, French Guiana",21900,337
+8DD5DE11,Soyuz 2.1b | Progress MS-36 (97P),2026-11-24T10:17:46Z,RFSA,Launch Successful,KAZ,"Baikonur Cosmodrome, Republic of Kazakhstan",8200,1566
+951A341F,Falcon 9 Block 5 | NROL-136,2026-11-22T12:23:56Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+76617033,Falcon 9 Block 5 | USSF-317,2026-11-21T04:20:35Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+A2975167,Long March 8A | SatNet LEO Group 30,2026-11-20T11:59:00Z,CASC,Launch Successful,CHN,"Wenchang Space Launch Site, People's Republic of China",9800,78
+E0A11EB1,Long March 2D | Shijian 24,2026-11-18T22:51:00Z,CASC,Launch Successful,CHN,"Taiyuan Satellite Launch Center, People's Republic of China",3500,164
+EF9850AD,Vulcan VC6L | Amazon Leo (LV-01),2026-11-15T17:40:30Z,ULA,Launch Failure,USA,"Cape Canaveral SFS, FL, USA",27200,1133
+DB3500AC,Electron | The Mountain God Rises (iQPS Launch 10),2026-11-14T05:30:00Z,RL,Launch Successful,NZL,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",300,87
+BFF2FC91,"Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",2026-11-14T01:16:00Z,RFSA,Launch Successful,RUS,"Vostochny Cosmodrome, Siberia, Russian Federation",8200,22
+0F867F0C,Starship | Starlink Group 31-2 (Starship Flight 15),2026-11-13T22:47:36Z,SpaceX,Launch Successful,USA,"SpaceX Starbase, TX, USA",100000,24
+6AA7B90B,Falcon 9 Block 5 | USSF-627,2026-11-12T04:36:30Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+D66590AB,Long March 2D | CAS Pathfinder-1,2026-11-11T11:41:00Z,CASC,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",3500,304
+A2423132,Long March 12 | SatNet LEO Group 29,2026-11-08T20:24:00Z,CASC,Launch Successful,CHN,"Wenchang Space Launch Site, People's Republic of China",12000,78
+C476FEA7,Soyuz 2.1b/Fregat | Glonass-K1? (Kosmos 2621?),2026-11-07T13:22:00Z,VKS,Launch Successful,RUS,"Plesetsk Cosmodrome, Russian Federation",8200,1689
+54D471E8,Falcon 9 Block 5 | USSF-432,2026-11-07T00:48:42Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+E91D1DA2,Ceres-2 | 4 satellites,2026-11-06T23:37:00Z,GE,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",2000,304
+711DE6BC,Long March 2C | Yaogan 51-07 to 09,2026-11-05T15:58:00Z,CASC,Launch Successful,CHN,"Xichang Satellite Launch Center, People's Republic of China",3850,244
+F3F201CD,Kinetica 2 | SpaceSail Polar Group #17,2026-11-03T00:15:00Z,CAS,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",12000,304
+426BD2A5,Electron | The Sea God Surveys (iQPS Launch 9),2026-11-02T16:41:00Z,RL,Launch Successful,NZL,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",300,87
+57CE0A39,Falcon 9 Block 5 | Starlink Group 15-18,2026-10-31T04:04:34Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+20D5676E,GSLV Mk II | IRNSS-1L (NVS-03),2026-10-30T18:21:00Z,ISRO,Launch Successful,IND,"Satish Dhawan Space Centre, India",2500,106
+E2886A96,Falcon 9 Block 5 | Starlink Group 15-16,2026-10-27T07:25:51Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+6B95BCC8,Long March 8A | SatNet LEO Group 28,2026-10-25T02:03:00Z,CASC,Launch Successful,CHN,"Wenchang Space Launch Site, People's Republic of China",9800,78
+F6AF629D,Falcon 9 Block 5 | Starlink Group 15-15,2026-10-23T22:48:44Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+3621085F,Long March 4B | Yaogan 53-07 to 09/56-19 to 21,2026-10-23T19:25:00Z,CASC,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",4200,304
+9648124F,Long March 6A | Yaogan 50-03,2026-10-23T10:15:00Z,CASC,Launch Successful,CHN,"Taiyuan Satellite Launch Center, People's Republic of China",,164
+7766F3BB,Electron | We're Not Hawking Around (3x HawkEye 360),2026-10-23T07:11:00Z,RL,Launch Successful,NZL,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",300,87
+C6F8B6B0,Ceres-1S | Xiguang-4 01,2026-10-21T03:39:00Z,GE,Launch Successful,CHN,Haiyang Oriental Spaceport,350,29
+3B430F81,Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare),2026-10-20T11:04:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+69EBBCD2,H3-24 | Martian Moons eXploration (MMX),2026-10-19T19:41:03Z,MHI,Launch Successful,JPN,"Tanegashima Space Center, Japan",7900,100
+DF88CFBF,Falcon 9 Block 5 | USSF-481,2026-10-16T00:01:05Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+DFCABB3C,Zhuque-2E Block 2 | 10 satellites,2026-10-14T11:40:00Z,LS,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",6000,304
+E4C34B02,Falcon 9 Block 5 | Starlink Group 11-10,2025-02-11T02:09:40Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+F842964B,Electron | IoT 4 You and Me (Kinéis 16-20),2025-02-08T20:43:00Z,RL,Launch Successful,NZL,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",300,87
+FB0DF8B6,Falcon 9 Block 5 | Starlink Group 12-9,2025-02-08T19:18:30Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+682328D3,Soyuz 2.1v/Volga | Kosmos 2581/2582/2583,2025-02-05T03:59:24Z,VKS,Launch Successful,RUS,"Plesetsk Cosmodrome, Russian Federation",2850,1689
+6632587D,Falcon 9 Block 5 | WorldView Legion 5 & 6,2025-02-04T23:13:00Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+CCD1A7BC,New Shepard | NS-29,2025-02-04T16:00:00Z,BO,Launch Successful,USA,"Corn Ranch, Van Horn, TX, USA",,38
+028D5699,Falcon 9 Block 5 | Starlink Group 12-3,2025-02-04T10:15:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+0680D9C6,H3-22 | Michibiki 6 (QZS-6),2025-02-02T08:30:00Z,MHI,Launch Successful,JPN,"Tanegashima Space Center, Japan",5400,100
+6F18E0AC,Falcon 9 Block 5 | Starlink Group 11-4,2025-02-01T23:02:10Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+A22C6E2C,Falcon 9 Block 5 | SpainSat NG I,2025-01-30T01:34:00Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+2D39BB52,GSLV Mk II | IRNSS-1K (NVS-02),2025-01-29T00:53:00Z,ISRO,Launch Successful,IND,"Satish Dhawan Space Centre, India",2500,106
+32E2C0D2,Falcon 9 Block 5 | Starlink Group 12-7,2025-01-27T22:05:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+0D989B81,Falcon 9 Block 5 | Starlink Group 11-6,2025-01-24T14:07:00Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+00B19545,Long March 3B/E | TJSW-14,2025-01-23T15:32:00Z,CASC,Launch Successful,CHN,"Xichang Satellite Launch Center, People's Republic of China",12000,244
+FA36AD1A,Long March 6A | SpaceSail Polar Group #4,2025-01-23T05:15:00Z,CASC,Launch Successful,CHN,"Taiyuan Satellite Launch Center, People's Republic of China",,164
+F42DE197,Falcon 9 Block 5 | Starlink Group 11-8,2025-01-21T15:45:50Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+626C9BF7,Falcon 9 Block 5 | Starlink Group 13-1,2025-01-21T05:24:50Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+08F64722,Ceres-1 | 5 satellites,2025-01-20T10:11:00Z,GE,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",350,304
+4C5E9D81,Long March 2D | PRSC-EO1,2025-01-17T04:07:00Z,CASC,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",3500,304
+C5566F6E,Starship | Flight 7,2025-01-16T22:37:00Z,SpaceX,Launch Failure,USA,"SpaceX Starbase, TX, USA",35000,24
+91BFAA47,New Glenn | Maiden Flight,2025-01-16T07:03:00Z,BO,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",45000,1133
+9A30D934,Falcon 9 Block 5 | Blue Ghost Lunar Lander Mission 1 & Hakuto-R M2 “Resilience”,2025-01-15T06:11:39Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+02B28510,Falcon 9 Block 5 | Transporter 12 (Dedicated SSO Rideshare),2025-01-14T19:09:00Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+A07622A2,Falcon 9 Block 5 | Starlink Group 12-4,2025-01-13T16:47:09Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+F38F0321,Smart Dragon 3 | 10 x CentiSpace-1,2025-01-13T03:00:00Z,CHNR,Launch Successful,CHN,Haiyang Oriental Spaceport,,29
+B56BECA9,Falcon 9 Block 5 | Starlink Group 12-12,2025-01-10T19:11:20Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+F9308F6C,Falcon 9 Block 5 | NROL-153,2025-01-10T03:53:49Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+02A67327,Falcon 9 Block 5 | Starlink Group 12-11,2025-01-08T15:27:00Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+957F00C7,Falcon 9 Block 5 | Starlink Group 6-71,2025-01-06T20:43:59Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+797939FD,Long March 3B/E | Shijian 25,2025-01-06T20:00:00Z,CASC,Launch Successful,CHN,"Xichang Satellite Launch Center, People's Republic of China",12000,244
+0A9A511A,Falcon 9 Block 5 | Thuraya 4-NGS,2025-01-04T01:27:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+549F26ED,"Falcon 9 Block 5 | PACE (Plankton, Aerosol, Cloud, ocean Ecosystem)",2024-02-08T06:33:36Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+5A30129A,Smart Dragon 3 | 9 satellites,2024-02-03T03:06:00Z,CHNR,Launch Successful,CHN,Haiyang Oriental Spaceport,,29
+1ADE54B0,Long March 2C | Geely Constellation Group 02,2024-02-02T23:37:00Z,CASC,Launch Successful,CHN,"Xichang Satellite Launch Center, People's Republic of China",3850,244
+89F9600B,Electron | Four Of A Kind (NorthStar 1),2024-01-31T06:34:00Z,RL,Launch Successful,NZL,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",300,87
+665678B9,Falcon 9 Block 5 | Cygnus CRS-2 NG-20 (S.S. Patricia “Patty” Hilliard Robertson),2024-01-30T17:07:21Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+20F597CC,Falcon 9 Block 5 | Starlink Group 7-12,2024-01-29T05:57:20Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+378BD440,Falcon 9 Block 5 | Starlink Group 6-38,2024-01-29T01:10:00Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+3E3B4557,"Simorgh | Mahda, Keyhan-2 & Hatef-1",2024-01-28T00:04:00Z,ISA,Launch Successful,IRN,"Semnan Space Center, Islamic Republic of Iran",,15
+206EC3EC,SpaceShipTwo | Galactic 06,2024-01-26T17:42:05Z,VG,Launch Successful,???,Air launch to Suborbital flight,,86
+F8F2A91E,Falcon 9 Block 5 | Starlink Group 7-11,2024-01-24T00:35:00Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+23BA3860,Kinetica 1 | Flight 3,2024-01-23T04:03:00Z,CAS,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",2000,304
+3F01529E,Qaem 100 | Soraya,2024-01-20T06:28:34Z,IRGCAF,Launch Successful,IRN,"Shahrud Missile Test Site, Islamic Republic of Iran",80,6
+DA48063E,Falcon 9 Block 5 | Axiom Space Mission 3,2024-01-18T21:49:11Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+E11C7AEE,Long March 7 | Tianzhou-7,2024-01-17T14:27:30Z,CASC,Launch Successful,CHN,"Wenchang Space Launch Site, People's Republic of China",13500,78
+839C1427,Falcon 9 Block 5 | Starlink Group 6-37,2024-01-15T01:52:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+429277E6,Falcon 9 Block 5 | Starlink Group 7-10,2024-01-14T08:59:30Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+46F4FF24,H-IIA 202 | IGS Optical 8,2024-01-12T04:44:26Z,MHI,Launch Successful,JPN,"Tanegashima Space Center, Japan",10000,100
+E4D243BC,Gravity-1 | Maiden flight,2024-01-11T05:30:00Z,OrienSpace,Launch Successful,CHN,Haiyang Oriental Spaceport,6500,29
+5DF41F2A,Kuaizhou 1A | Tianxing-1-02,2024-01-11T03:52:00Z,EP,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",300,304
+1977A934,Long March 2C | Einstein Probe,2024-01-09T07:03:00Z,CASC,Launch Successful,CHN,"Xichang Satellite Launch Center, People's Republic of China",3850,244
+B973E965,Vulcan VC2S | Peregrine lunar lander (Maiden flight),2024-01-08T07:18:38Z,ULA,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",19000,1133
+60634A63,Falcon 9 Block 5 | Starlink Group 6-35,2024-01-07T22:35:40Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+7EC40D08,Kuaizhou 1A | Tianmu-1 15-18,2024-01-05T11:20:00Z,EP,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",300,304
+1D374BEF,Falcon 9 Block 5 | Ovzon-3,2024-01-03T23:04:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+161DBC75,Falcon 9 Block 5 | Starlink Group 7-9,2024-01-03T03:44:20Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+2A29A629,PSLV-DL | XPoSat,2024-01-01T03:40:00Z,ISRO,Launch Successful,IND,"Satish Dhawan Space Centre, India",3800,106
+3BD674C9,Falcon 9 Block 5 | Starlink Group 5-4,2023-02-12T05:10:10Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+58EBA6FC,SSLV | EOS-7 & rideshare (Demo 2),2023-02-10T03:48:00Z,ISRO,Launch Successful,IND,"Satish Dhawan Space Centre, India",500,106
+F611B883,Soyuz 2.1a | Progress MS-22 (83P),2023-02-09T06:15:36Z,RFSA,Launch Successful,KAZ,"Baikonur Cosmodrome, Republic of Kazakhstan",7020,1566
+59449FA1,Falcon 9 Block 5 | Amazonas Nexus,2023-02-07T01:32:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+129C491B,Proton-M/Blok DM-03 | Elektro-L No.4,2023-02-05T09:12:52Z,KhSC,Launch Successful,KAZ,"Baikonur Cosmodrome, Republic of Kazakhstan",21000,1566
+072F9F30,Falcon 9 Block 5 | Starlink Group 5-3,2023-02-02T07:58:20Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+F5A5BA75,Falcon 9 Block 5 | Starlink Group 2-6 & ION SCV009,2023-01-31T16:15:00Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+8E6946A2,Falcon 9 Block 5 | Starlink Group 5-2,2023-01-26T09:32:20Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+00AF0700,H-IIA 202 | IGS Radar 7,2023-01-26T01:50:21Z,MHI,Launch Successful,JPN,"Tanegashima Space Center, Japan",10000,100
+32A2E219,Electron | Virginia is for Launch Lovers (Hawk 6A-C),2023-01-24T23:00:00Z,RL,Launch Successful,USA,"Wallops Flight Facility, Virginia, USA",300,87
+050EECBC,Falcon 9 Block 5 | Starlink Group 2-4,2023-01-19T15:43:10Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+572DBB78,Falcon 9 Block 5 | GPS III SV06,2023-01-18T12:24:00Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+571BF2C1,Falcon Heavy | USSF-67,2023-01-15T22:56:00Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",63800,283
+DAC070CF,"Long March 2D | 6 x Jilin-1, Qilu-2/3 & others",2023-01-15T03:14:00Z,CASC,Launch Successful,CHN,"Taiyuan Satellite Launch Center, People's Republic of China",3500,164
+7E7A8A94,Long March 2D | Yaogan 37 & Shiyan 22A/B,2023-01-13T07:00:00Z,CASC,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",3500,304
+FCCD1B58,Long March 2C | APStar 6E,2023-01-12T18:10:00Z,CASC,Launch Successful,CHN,"Xichang Satellite Launch Center, People's Republic of China",3850,244
+06066A71,RS1 | Maiden Flight,2023-01-10T23:27:30Z,ABL,Launch Failure,USA,"Pacific Spaceport Complex, Alaska, USA",1350,9
+D0132D83,Falcon 9 Block 5 | OneWeb 16,2023-01-10T04:50:17Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+B0FBC1B8,LauncherOne | Start Me Up,2023-01-09T23:08:00Z,VO,Launch Failure,???,Air launch to orbit,500,52
+15096081,Ceres-1 | 5 satellites,2023-01-09T05:04:00Z,GE,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",350,304
+04396635,Long March 7A | Shijian 23,2023-01-08T22:00:00Z,CASC,Launch Successful,CHN,"Wenchang Space Launch Site, People's Republic of China",,78
+FC0B222B,Falcon 9 Block 5 | Transporter 6 (Dedicated SSO Rideshare),2023-01-03T14:55:56Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+B7B24770,Falcon 9 Block 5 | Starlink Group 4-11,2022-02-25T17:12:10Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+398E713F,Falcon 9 Block 5 | Starlink Group 4-8,2022-02-21T14:44:20Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+7005F701,Antares 230+ | Cygnus CRS-2 NG-17 (S.S. Piers Sellers),2022-02-19T17:40:03Z,NGSS,Launch Successful,USA,"Wallops Flight Facility, Virginia, USA",8200,87
+B89E65D2,Soyuz 2.1a | Progress MS-19 (80P),2022-02-15T04:25:40Z,RFSA,Launch Successful,KAZ,"Baikonur Cosmodrome, Republic of Kazakhstan",7020,1566
+671B829D,PSLV-XL | EOS-4 (RISAT-1A),2022-02-14T00:29:00Z,ISRO,Launch Successful,IND,"Satish Dhawan Space Centre, India",,106
+2B74E95D,Astra Rocket 3 | ELaNa 41,2022-02-10T20:00:00Z,AS,Launch Failure,USA,"Cape Canaveral SFS, FL, USA",100,1133
+D91432D6,Soyuz STB/Fregat | OneWeb 13,2022-02-10T18:09:37Z,ASA,Launch Successful,GUF,"Guiana Space Centre, French Guiana",8200,337
+522CB7E0,Soyuz 2.1a/Fregat-M | Neitron (Kosmos 2553),2022-02-05T07:00:00Z,VKS,Launch Successful,RUS,"Plesetsk Cosmodrome, Russian Federation",7020,1689
+DE39DD1A,Falcon 9 Block 5 | Starlink Group 4-7,2022-02-03T18:13:20Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+2E650790,Falcon 9 Block 5 | NROL-87,2022-02-02T20:27:26Z,SpaceX,Launch Successful,USA,"Vandenberg SFB, CA, USA",22800,927
+23229C2B,Falcon 9 Block 5 | CSG-2,2022-01-31T23:11:14Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+42F2C56F,Long March 4C | L-SAR 01A,2022-01-25T23:44:00Z,CASC,Launch Successful,CHN,"Jiuquan Satellite Launch Center, People's Republic of China",,304
+7323ED72,Atlas V 511 | USSF-8,2022-01-21T19:00:00Z,ULA,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",10986,1133
+50AC28F2,Falcon 9 Block 5 | Starlink Group 4-6,2022-01-19T02:02:40Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283
+E1FAF90D,Long March 2D | Shiyan 13,2022-01-17T02:35:00Z,CASC,Launch Successful,CHN,"Taiyuan Satellite Launch Center, People's Republic of China",3500,164
+0914DABD,LauncherOne | Above the Clouds,2022-01-13T22:52:00Z,VO,Launch Successful,???,Air launch to orbit,500,52
+C660DF6F,Falcon 9 Block 5 | Transporter 3 (Dedicated SSO Rideshare),2022-01-13T15:25:39Z,SpaceX,Launch Successful,USA,"Cape Canaveral SFS, FL, USA",22800,1133
+3DDB1934,Falcon 9 Block 5 | Starlink Group 4-5,2022-01-06T21:49:10Z,SpaceX,Launch Successful,USA,"Kennedy Space Center, FL, USA",22800,283

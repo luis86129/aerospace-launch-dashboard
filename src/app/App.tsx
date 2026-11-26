@@ -61,12 +61,15 @@ export default function App() {
     [launches, provider, status],
   );
 
-  // KPIs calculados dinámicamente desde Firebase
+// KPIs calculados dinámicamente desde Firebase
   const summary = useMemo(() => {
     const total = launches.length;
-    const successful = launches.filter((l) => l.status_name === "Success").length;
+    const isSuccess = (s: string) => s === "Success" || s === "Launch Successful";
+    const isFailure = (s: string) => s === "Failure" || s === "Launch Failure";
+
+    const successful = launches.filter((l) => isSuccess(l.status_name)).length;
     const completed = launches.filter(
-      (l) => l.status_name === "Success" || l.status_name === "Failure",
+      (l) => isSuccess(l.status_name) || isFailure(l.status_name),
     ).length;
     const successRate = completed > 0 ? ((successful / completed) * 100).toFixed(1) : "0.0";
     const totalPayloadTons = Math.round(
@@ -117,16 +120,19 @@ export default function App() {
     return slices;
   }, [launches]);
 
-  // Datos para Gráfico 3: Éxito vs. fallo
+// Datos para Gráfico 3: Éxito vs. fallo
   const missionOutcome = useMemo(() => {
-    const successful = launches.filter((l) => l.status_name === "Success").length;
-    const failed = launches.filter((l) => l.status_name === "Failure").length;
+    const successful = launches.filter(
+      (l) => l.status_name === "Success" || l.status_name === "Launch Successful",
+    ).length;
+    const failed = launches.filter(
+      (l) => l.status_name === "Failure" || l.status_name === "Launch Failure",
+    ).length;
     return [
       { name: "Exitosos", value: successful, color: "#c7ff4a" },
       { name: "Fallidos", value: failed, color: "#fb7185" },
     ];
   }, [launches]);
-
   const hasActiveFilters =
     provider !== "Todos los Proveedores" || status !== "Todos los Estados";
 

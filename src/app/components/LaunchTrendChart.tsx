@@ -33,7 +33,7 @@ export function LaunchTrendChart({ data }: LaunchTrendChartProps) {
         p: { xs: 2.5, sm: 3 },
       }}
     >
-      <SectionHeader index="01" title="Lanzamientos por año" detail="2022 — 2025" />
+      <SectionHeader index="01" title="Lanzamientos por año" detail="2022 — 2026" />
       <Box sx={{ height: 270 }}>
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={data} margin={{ top: 12, right: 6, left: -22, bottom: 0 }}>

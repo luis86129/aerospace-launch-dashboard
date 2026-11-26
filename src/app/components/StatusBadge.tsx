@@ -5,8 +5,8 @@ export interface StatusBadgeProps {
 }
 
 export function StatusBadge({ status }: StatusBadgeProps) {
-  const isSuccess = status === "Success";
-  const isUpcoming = status === "Go for Launch";
+  const isSuccess = status === "Success" || status === "Launch Successful";
+  const isUpcoming = status === "Go for Launch" || status === "To Be Confirmed";
 
   const styles = isSuccess
     ? {
